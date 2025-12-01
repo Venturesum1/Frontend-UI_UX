@@ -2,10 +2,6 @@
 
 **Advanced Prompt Engineering Platform** - A polished, frontend-only prototype combining the best features from leading AI platforms into a unified, professional interface.
 
-## 🚀 Live Demo
-
-Deployed at: [Your Deployment URL]
-
 ## 📚 Research
 
 ### Platforms Reviewed
