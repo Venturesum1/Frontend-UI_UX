@@ -42,14 +42,14 @@ All colors MUST be HSL.
 
     --radius: 1rem;
 
-    --gradient-primary: linear-gradient(135deg, hsl(280 85% 65%), hsl(330 85% 65%));
-    --gradient-cosmic: linear-gradient(135deg, hsl(280 85% 65%), hsl(310 85% 65%), hsl(25 85% 60%));
-    --gradient-mesh: radial-gradient(at 0% 0%, hsl(280 85% 65% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 100% 0%, hsl(330 85% 65% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 100% 100%, hsl(25 85% 60% / 0.3) 0px, transparent 50%),
-                     radial-gradient(at 0% 100%, hsl(260 85% 65% / 0.3) 0px, transparent 50%);
-    --shadow-glow: 0 0 60px hsl(280 85% 65% / 0.4);
-    --shadow-elevated: 0 20px 50px -20px hsl(280 85% 65% / 0.3);
+    --gradient-primary: linear-gradient(135deg, hsl(56, 63%, 79%), hsl(68, 69%, 82%));
+    --gradient-cosmic: linear-gradient(135deg, hsl(67, 47%, 82%), hsl(78, 5%, 64%), hsl(188, 85%, 71%));
+    --gradient-mesh: radial-gradient(at 0% 0%, hsla(157, 88%, 63%, 0.3) 0px, transparent 50%),
+                     radial-gradient(at 100% 0%, hsl(74, 90%, 80%) 0px, transparent 50%),
+                     radial-gradient(at 100% 100%, hsl(61, 88%, 71%) 0px, transparent 50%),
+                     radial-gradient(at 0% 100%, hsla(71, 98%, 51%, 0.3) 0px, transparent 50%);
+    --shadow-glow: 0 0 60px hsl(68, 41%, 93%);
+    --shadow-elevated: 0 20px 50px -20px hsla(18, 73%, 77%, 0.892);
   }
 
   .dark {
@@ -85,14 +85,14 @@ All colors MUST be HSL.
     --input: 270 20% 22%;
     --ring: 280 85% 70%;
 
-    --gradient-primary: linear-gradient(135deg, hsl(280 85% 70%), hsl(330 85% 70%));
-    --gradient-cosmic: linear-gradient(135deg, hsl(280 85% 70%), hsl(310 85% 70%), hsl(25 85% 65%));
-    --gradient-mesh: radial-gradient(at 0% 0%, hsl(280 85% 70% / 0.15) 0px, transparent 50%),
-                     radial-gradient(at 100% 0%, hsl(330 85% 70% / 0.15) 0px, transparent 50%),
-                     radial-gradient(at 100% 100%, hsl(25 85% 65% / 0.15) 0px, transparent 50%),
-                     radial-gradient(at 0% 100%, hsl(260 85% 70% / 0.15) 0px, transparent 50%);
-    --shadow-glow: 0 0 80px hsl(280 85% 70% / 0.5);
-    --shadow-elevated: 0 20px 60px -20px hsl(280 85% 70% / 0.4);
+    --gradient-primary: linear-gradient(135deg, hsl(73, 57%, 79%), hsl(68, 30%, 65%));
+    --gradient-cosmic: linear-gradient(135deg, hsl(150, 60%, 71%), hsl(165, 69%, 68%), hsl(179, 69%, 71%));
+    --gradient-mesh: radial-gradient(at 0% 0%, hsl(170, 59%, 54%) 0px, transparent 50%),
+                     radial-gradient(at 100% 0%, hsla(159, 41%, 72%, 0.15) 0px, transparent 50%),
+                     radial-gradient(at 100% 100%, hsl(181, 92%, 51%) 0px, transparent 50%),
+                     radial-gradient(at 0% 100%, hsl(66, 80%, 84%) 0px, transparent 50%);
+    --shadow-glow: 0 0 80px hsl(56, 67%, 81%);
+    --shadow-elevated: 0 20px 60px -20px hsla(66, 58%, 75%, 0.4);
   }
 }
 
@@ -171,7 +171,7 @@ All colors MUST be HSL.
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(255, 255, 255, 0.05),
+      rgb(245, 255, 160),
       transparent
     );
     animation: shimmer 4s infinite;
