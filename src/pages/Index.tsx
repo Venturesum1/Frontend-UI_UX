@@ -159,7 +159,7 @@ const Index = () => {
             </div>
             <div>
               <h1 className="text-2xl font-serif font-bold tracking-tight bg-gradient-to-r from-primary via-accent to-gold bg-clip-text text-transparent">
-                AI Interface Studio
+                interfce ai
               </h1>
               <p className="text-xs text-muted-foreground flex items-center gap-1.5 font-light tracking-wide">
                 <Sparkles className="h-3.5 w-3.5 text-gold" />
