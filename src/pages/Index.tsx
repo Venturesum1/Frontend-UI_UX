@@ -154,7 +154,6 @@ const Index = () => {
               ref={logoRef}
               className="h-14 w-14 rounded-2xl gradient-cosmic animate-gradient flex items-center justify-center shadow-glow relative overflow-hidden"
             >
-              <Brain className="h-7 w-7 text-white relative z-10" />
               <div className="absolute inset-0 bg-gradient-to-br from-white/30 to-transparent" />
             </div>
             <div>
